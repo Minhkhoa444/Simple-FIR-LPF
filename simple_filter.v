@@ -111,27 +111,27 @@ module simple_filter(
         end
         //accumulation stage
         always @(posedge clk) begin
-		acc0 = b0 * pipe0;
-		acc1 = b1 * pipe1;
-		acc2 = b2 * pipe2;
-		acc3 = b3 * pipe3;
-		acc4 = b4 * pipe4;
-		acc5 = b5 * pipe5;
-		acc6 = b6 * pipe6;
-		acc7 = b7 * pipe7;
-		acc8 = b8 * pipe8;
-		acc9 = b9 * pipe9;
-		acc10 = b10 * pipe10;
-		acc11 = b11 * pipe11;
-		acc12 = b12 * pipe12;
-		acc13 = b13 * pipe13;
-		acc14 = b14 * pipe14;
-		acc15 = b15 * pipe15;
-		acc16 = b16 * pipe16;
-		acc17 = b17 * pipe17;
-		acc18 = b18 * pipe18;
-		acc19 = b19 * pipe19;
-		acc20 = b20 * pipe20;
+			acc0 = b0 * pipe0;
+			acc1 = b1 * pipe1;
+			acc2 = b2 * pipe2;
+			acc3 = b3 * pipe3;
+			acc4 = b4 * pipe4;
+			acc5 = b5 * pipe5;
+			acc6 = b6 * pipe6;
+			acc7 = b7 * pipe7;
+			acc8 = b8 * pipe8;
+			acc9 = b9 * pipe9;
+			acc10 = b10 * pipe10;
+			acc11 = b11 * pipe11;
+			acc12 = b12 * pipe12;
+			acc13 = b13 * pipe13;
+			acc14 = b14 * pipe14;
+			acc15 = b15 * pipe15;
+			acc16 = b16 * pipe16;
+			acc17 = b17 * pipe17;
+			acc18 = b18 * pipe18;
+			acc19 = b19 * pipe19;
+			acc20 = b20 * pipe20;
         end
         //output stage
         always @(posedge clk)
