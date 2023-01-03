@@ -24,7 +24,7 @@ Coefficient created by MATLAB filter design tool:
 -0.0238992144   =>  FCF1
 -0.0041728706   =>  FF77
 
-    b[i] = (coeff[i] * 2^15) then rounding off the decimal value and take 2 complement if it is negative
+    b[i] = (coeff[i] * 2^15) then rounding off the decimal value and take 2's complement if it is negative
 
 */
 module simple_filter(
